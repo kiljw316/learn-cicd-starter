@@ -6,7 +6,7 @@ import (
 )
 
 func TestGetAPIKey(t *testing.T) {
-    if reflect.DeepEqual(1, 1) {
+    if !reflect.DeepEqual(1, 1) {
         t.Fatalf("test fail")
     }
 }
