@@ -24,3 +24,4 @@ You do *not* need to set up a database or any interactivity on the webpage yet. 
 
 kiljw316's version of Boot.dev's Notely app.
 
+![tested!!](https://github.com/kiljw316/learn-cicd-starter/actions/workflows/ci.yml/badge.svg)
