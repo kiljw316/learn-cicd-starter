@@ -40,7 +40,6 @@ jobs:
         uses: dominikh/staticcheck-action@v1
         with:
           install-go: false
-          use-cache: false
 
 
 
