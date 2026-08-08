@@ -36,4 +36,10 @@ jobs:
       - name: Check style
         run: test -z $(go fmt ./...)
 
+      - name: Check lint
+        uses: dominikh/staticcheck-action@v1.2.0
+        with:
+          install-go: false
+
+
 
